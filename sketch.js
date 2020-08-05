@@ -50,6 +50,7 @@ function draw() {
     {
       wall.shapeColor = color(0,255,0);
   } 
+  }
   drawSprites();
 }
 
