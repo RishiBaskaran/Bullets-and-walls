@@ -21,7 +21,7 @@ function draw() {
   background("black");
   
   bullet.velocityX = speed;
-  if(wall.x - bullet.x < (bullet.width + wall.width)/2){
+ /* if(wall.x - bullet.x < (bullet.width + wall.width)/2){
     bullet.velocityX = 0;
     var deformation = 0.5*weight*speed*speed/22500;
     if(deformation > 180){
@@ -33,6 +33,7 @@ function draw() {
     if(deformation < 100){
       wall.shapeColor = color(0,255,0);
     }
-  }
+  }*/
+  
   drawSprites();
 }
